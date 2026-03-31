@@ -251,12 +251,12 @@ html {
 .card-img {
   height: 250px;
   background-color: #2a2d30;
-  /* Fallback color */
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  object-fit: cover;
 }
 
 .card-details {
