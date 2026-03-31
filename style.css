@@ -239,7 +239,7 @@ html {
   border: 1px solid rgba(0, 180, 216, 0.3);
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 -10px 30px rgba(3, 4, 94, 0.8);
+  box-shadow: 0 -10px 30px rgba(3, 4, 94, 0.3);
   backdrop-filter: blur(10px);
   transition: transform 0.3s;
 }
@@ -281,6 +281,21 @@ html {
   font-size: 0.75rem;
   margin-right: 8px;
 }
+
+.tagslink { margin-top: 15px; }
+.tagslink a {
+  background: transparent; 
+  color: var(--accent-3);
+  font-weight: 500; 
+  font-size: 0.85rem;
+  margin-right: 15px;
+  text-decoration: none; 
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s; 
+  padding: 6px;
+}
+
+.tagslink a:hover { border-color: var(--accent); }
 
 /* TIMELINE */
 .timeline {
